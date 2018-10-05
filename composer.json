@@ -1,0 +1,53 @@
+{
+  "name": "tantana5/file-manager-l5",
+  "description": "Associate files with Eloquent models",
+  "keywords": [
+    "tantana5",
+    "file-manager-l5",
+    "files",
+    "conversion",
+    "images",
+    "downloads",
+    "laravel"
+  ],
+  "homepage": "https://github.com/tantana5/file-manager-l5",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nguyen Duc Tan",
+      "email": "tantanb2@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TanTan\\FileManager\\": "src"
+    },
+    "files": [
+      "app/Helpers/function.php",
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "TanTan\\FileManager\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "TanTan\\FileManager\\FileManagerServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

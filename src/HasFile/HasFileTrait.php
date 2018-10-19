@@ -1,6 +1,7 @@
 <?php
 namespace TanTan\FileManager\HasFile;
-use Spatie\MediaLibrary\Models\File;
+use TanTan\MediaLibrary\Models\File;
+use TanTan\MediaLibrary\FileRepository;
 
 trait HasFileTrait
 {
